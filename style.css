@@ -55,8 +55,7 @@ main img{
 
 .bonus{
     text-align: center; 
-    display: flex;
-    color: aqua;
+    color: rgb(13, 14, 14);
 }
 .pariba{
     z-index: 8;
