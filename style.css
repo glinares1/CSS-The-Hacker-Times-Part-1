@@ -5,7 +5,7 @@ body{
     border: #eee;
     font-family: "Source Sans Pro";
 }
-header{
+header{ 
     font-family: "Abril Fatface";
 }
 h1{ 
@@ -21,19 +21,22 @@ h1{
     
 }
 nav{
-    border-top: 2px;
-    border-bottom: 2px;
+    border-top:  #777 solid;
+    border-bottom:  #777 solid;
 }
 ul{
 
     list-style-type: none;
-    display: flex;
+    display: inline-flex;
     text-align: center;
 }
 ul a{
     padding: 5px;
     text-decoration: none;
     color: black;
+}
+ ul a:hover{
+    background-color: white
 }
 h5{
     color:#dd3232;
@@ -53,7 +56,6 @@ main img{
     width: auto;
 
 }
-
 .bonus{
     text-align: center; 
     color: rgb(13, 14, 14);
@@ -63,4 +65,6 @@ main img{
     border-radius: 2em;
     background-color: #dd3232;
     margin: 0 auto;
+    width: 400px;
+    text-align:center;
 }
